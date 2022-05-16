@@ -1,0 +1,30 @@
+{% extends 'Index.html' %}
+{% block content %}
+    <form class="container b1" method="post">
+            <div class="row flex">
+                <label for="curse">Cursos</label>
+                <input type="number" id="curse" class="input_u" name="var_1">
+            </div>
+            <div class="row flex">
+                <label for="Calificacion">Calificacion anterior</label>
+                <input type="number" id="Calificacion" class="input_u" name="var_2">
+            </div>
+            <div class="row flex">
+                <label for="Admision">Calificacion de admision</label>
+                <input type="number" id="Admision" class="input_u" name="var_3">
+            </div>
+            <div class="row flex">
+                <label for="inscrip">Edad de inscripcion</label>
+                <input type="number" id="inscrip" class="input_u" name="var_4">
+            </div>
+            <div class="row flex">
+                <label for="ratio">Ratio de desempleo</label>
+                <input type="number" id="ratio" class="input_u" name="var_5">
+            </div>
+            <div class="row">
+                <button class="but">
+                    Enviar
+                </button>
+            </div>
+        </form>
+{% endblock %}
